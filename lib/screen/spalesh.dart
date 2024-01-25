@@ -23,7 +23,7 @@ class _IntroScreenState extends State<IntroScreen> {
     return const Scaffold(
       backgroundColor: Colors.black,
       body: Center(
-        child: Text("Quotes",style: TextStyle(fontSize: 50,color: Colors.white),),
+        child: Text("Quotes",style: TextStyle(fontSize: 60,color: Colors.white),),
       ),
     );
   }
