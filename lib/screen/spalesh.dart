@@ -21,8 +21,9 @@ class _IntroScreenState extends State<IntroScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
-        child: Text("Quotes API"),
+        child: Text("Quotes",style: TextStyle(fontSize: 50,color: Colors.white),),
       ),
     );
   }
