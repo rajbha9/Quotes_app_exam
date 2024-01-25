@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quotes_api_app/theme.dart';
-import 'package:quotes_api_app/view/home/home_screen.dart';
-import 'package:quotes_api_app/view/intro/intro_screen.dart';
-import 'package:quotes_api_app/view/liked_quotes/liked_quotes_screen.dart';
+import 'package:quotes_api_app/screen/home_screen.dart';
+import 'package:quotes_api_app/screen/intro_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,12 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.lightTheme(context),
-      initialRoute: 'welcome',
+
+      initialRoute: 'spalesh',
       routes: {
         '/': (context) => const HomePage(),
-        'welcome': (context) => const IntroScreen(),
-        'like_screen': (context) => const FavoriteScreen(),
+        'spalesh': (context) => const IntroScreen(),
       },
     );
   }
