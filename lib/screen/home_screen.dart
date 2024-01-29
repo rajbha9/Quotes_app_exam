@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 onTap: () {
-                  Navigator.of(context).pushNamed('like_screen');
+                  Navigator.of(context).pushNamed('fev');
                 },
                 leading: const Icon(
                   Icons.favorite_outline,
@@ -93,6 +93,20 @@ class _HomePageState extends State<HomePage> {
                 ),
                 title: const Text(
                   'Favorite Quotes',
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Color(0xff0F1035),
+                      fontWeight: FontWeight.bold),
+                ),
+              ),
+              ListTile(
+                onTap: () {},
+                leading: const Icon(
+                  Icons.settings,
+                  color: Color(0xff0F1035),
+                ),
+                title: const Text(
+                  'Settings',
                   style: TextStyle(
                       fontSize: 20,
                       color: Color(0xff0F1035),
