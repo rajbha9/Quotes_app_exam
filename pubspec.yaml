@@ -38,6 +38,8 @@ dependencies:
   flutter_svg:
   provider:
   http:
+  shared_preferences:
+  awesome_snackbar_content:
 
 dev_dependencies:
   flutter_test:

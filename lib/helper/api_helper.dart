@@ -20,11 +20,13 @@ class APIHelper {
       List quotesData = decodedData['results'];
 
       return quotesData
-          .map((e) => Quote(
-                author: e['author'],
-                content: e['content'],
-                authorSlug: e['authorSlug'],
-              ))
+          .map((e) =>
+          Quote(
+            id:e['_id'],
+            author: e['author'],
+            content: e['content'],
+            authorSlug: e['authorSlug'],
+          ))
           .toList();
     }
     return null;

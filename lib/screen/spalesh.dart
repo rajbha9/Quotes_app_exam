@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-class IntroScreen extends StatefulWidget {
-  const IntroScreen({super.key});
+class spalesh extends StatefulWidget {
+  const spalesh({super.key});
 
   @override
-  State<IntroScreen> createState() => _IntroScreenState();
+  State<spalesh> createState() => _spaleshState();
 }
 
-class _IntroScreenState extends State<IntroScreen> {
+class _spaleshState extends State<spalesh> {
   @override
   void initState() {
     super.initState();
@@ -21,9 +21,9 @@ class _IntroScreenState extends State<IntroScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color(0xff0F1035),
       body: Center(
-        child: Text("Quotes",style: TextStyle(fontSize: 60,color: Colors.white),),
+        child: Text("Quotes",style: TextStyle(fontSize: 60,color: Color(0xff7FC7D9)),),
       ),
     );
   }
